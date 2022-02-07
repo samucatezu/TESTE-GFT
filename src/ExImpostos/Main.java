@@ -14,18 +14,18 @@ public class Main {
         Double numero1 = Double.parseDouble(num1);
 
         ICMS icms = new ICMS();
-        Double vaalorIcms = icms.calculaImposto(numero1);
-        System.out.println("ICMS: " + vaalorIcms);
+        Double valorIcms = icms.calculaImposto(numero1);
+        System.out.println("ICMS: " + valorIcms);
 
         IPI ipi = new IPI();
-        Double vaalorIpi = ipi.calculaImposto(numero1);
-        System.out.println("IPI: " + vaalorIpi);
+        Double valorIpi = ipi.calculaImposto(numero1);
+        System.out.println("IPI: " + valorIpi);
 
         COFINS cofins = new COFINS();
-        Double vaalorCofins = cofins.calculaImposto(numero1);
-        System.out.println("COFINS: " + vaalorCofins);
+        Double valorCofins = cofins.calculaImposto(numero1);
+        System.out.println("COFINS: " + valorCofins);
 
-        Double total = numero1 + vaalorIcms + vaalorIpi + vaalorCofins;
+        Double total = numero1 + valorIcms + valorIpi + valorCofins;
 
         System.out.println("Total: " + total);
 

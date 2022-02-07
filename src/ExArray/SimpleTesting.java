@@ -21,7 +21,7 @@ public class SimpleTesting{
         System.out.println("Menor numero = " + arr[0]);
         System.out.println("Maior numero = " + arr[arr.length-1]);
         System.out.println("Soma de todos os numeros do array = "+sum);
-       
+
 
 
     }
